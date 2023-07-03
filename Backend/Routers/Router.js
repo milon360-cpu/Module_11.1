@@ -24,7 +24,8 @@ router.get('/profile',
             {
                 success : true,
                 message : "authorized",
-                status : 200        
+                status : 200  ,
+                email : req.user.email      
             }
         )
     }
